@@ -1,0 +1,14 @@
+[
+  {
+    "testId": "TC-001",
+    "userName": "administrator",
+    "password": "realpage",
+    "loginAssert": "System Administrator"
+  },
+  {
+    "testId": "TC-002",
+    "userName": "NoUser",
+    "password": "NoPass",
+    "loginAssert": "ERROR: Invalid username. Lost your password?"
+  }
+]
